@@ -13,6 +13,10 @@ This is for reading, not building. The game lived inside a Flash project file, w
 
 Each block starts with a comment saying where it sits, for example `// ---- layer "Control", frame 4 ("init")`, or the instance it's attached to for `on (...)` and `onClipEvent (...)` code.
 
+## Mechanics
+
+[Flight formulas, upgrades and stage goals](docs/mechanics.md)
+
 ## License
 
 The [LBG-NCNC License v1.0](LICENSE.md) covers Light Bringer Games' source code in this repository.
