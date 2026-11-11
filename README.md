@@ -1,21 +1,27 @@
 # Learn to Fly: source code
 
-The ActionScript 2 code of Learn to Fly (2009), from version 3.54, the last build made in 2017.
+![Learn to Fly cover art](docs/capsule.jpg)
 
-This is for reading, not building. The game lived inside a Flash project file, with its code spread over the frames of its timelines, and the art and sound aren't included.
-
-## What's here
-
-`scripts/` holds code exported from the Flash project file:
-
-1. `Main timeline.as`: the code on the game's main timeline, which is most of the game.
-2. `Library/`: one file per library symbol that has code, in the same folders as the project's library.
-
-Each block starts with a comment saying where it sits, for example `// ---- layer "Control", frame 4 ("init")`, or the instance it's attached to for `on (...)` and `onClipEvent (...)` code.
+ActionScript 2 source for Learn to Fly (2009), from the last build, version 3.54 (2017). All of the exported code came from the Flash project. It was written on the main timeline and on frames and instances inside library symbols.
 
 ## Mechanics
 
-[Flight formulas, upgrades and stage goals](docs/mechanics.md)
+The [mechanics guide](docs/mechanics.md) follows a flight from the ramp to the water, including gliding, rocket thrust, and water bounces. It also covers flight payouts, gear upgrades, and stage goals.
+
+## Artwork renders
+
+[Preview](docs/art-renders/preview.png) · [Asset manifest](docs/art-renders/manifest.csv). The full pack contains transparent 256 × 256 and 1024 × 1024 PNGs in `learn-to-fly-art-renders.zip` for [Releases](../../releases).
+
+## What's here
+
+This release is for reading the source. The game lived inside a Flash project file, with its code spread over the frames of its timelines, and the original art and sound files aren't included.
+
+`scripts/` holds code exported from the Flash project file:
+
+1. `Main timeline.as`: the code on the game's main timeline.
+2. `Library/`: one file per library symbol that has code, in the same folders as the project's library.
+
+Each block starts with a comment saying where it sits, for example `// ---- layer "Control", frame 4 ("init")`, or the instance it's attached to for `on (...)` and `onClipEvent (...)` code.
 
 ## License
 
